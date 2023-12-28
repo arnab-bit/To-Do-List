@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="todo-container"><!-- Todo list body -->
+        <div class="todo-box">
+            <header class="heading">To Do List</header>
+            <div class="inputbox">
+                <i class="icon uil uil-books"></i><!-- file icon  -->
+                <input type="text" placeholder="What need to record">
+                <i id="addbutton" class="icon uil uil-sort-amount-down"></i><!-- Add plus icon  -->
+            </div>
+            <div class="total-task">
+                Total Tasks: 
+                <span class="task-count"></span><!--Empty span for task count -->
+            </div>
+            
+            <div class="clckbutton">
+                <span class="btn delete-all-btn">Delete All</span>
+                <span class="btn delete-marked-btn">Delete Marked</span>
+            </div>
+            <hr>
+            <ul class="itemlist"></ul><!-- Empty Unorder Todolist for add list item -->
+            <hr>
+            <div class="clckbutton">
+                <span class="btn mark-all-btn">Mark All</span>
+                <span class="btn unmark-all-btn">Unmark All</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
